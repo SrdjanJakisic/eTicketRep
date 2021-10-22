@@ -49,6 +49,9 @@
 
                         </div>
                     </div>
+                    <div>
+                        @await Html.PartialAsync("_CreateItem", "Movies")
+                    </div>
                     <div class="col-md-12">
                         <div class="card-footer ">
                             <p class="card-text">
@@ -65,4 +68,3 @@
     }
 </div>
 
-@await Html.PartialAsync("_CreateItem", "Movies")
